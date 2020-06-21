@@ -70,6 +70,7 @@ html {
     padding: 15px 0;
     width: 100%;
     position: fixed;
+    z-index: 999;
   }
 
   h1 {
