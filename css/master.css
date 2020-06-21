@@ -72,7 +72,6 @@ html {
     position: fixed;
   }
 
-  .logo,
   h1 {
       text-transform: uppercase;
   }
@@ -118,10 +117,37 @@ html {
       margin: 0 auto;
   }
 
+  #ban-one,
+  #ban-two,
+  #ban-three {
+    position: absolute;
+    width: 10%;
+  }
+
+  #ban-one {
+    top: 28%;
+    left: 20%;
+    transform: rotate(-30deg);
+  }
+
+  #ban-two {
+      top: 28%;
+      right: 20%;
+      transform: rotate(30deg);
+  }
+
+  #ban-three {
+    top: 80%;
+    left: 40%;
+    transform: rotate(-20deg);
+    width: 6%;
+  }
+
   h1 {
     color: red;
     line-height: 1.5;
     margin-top: 0;
+    line-height: 1.7;
   }
 
   .clr-bl {
